@@ -7,6 +7,30 @@ services:
     dockerContext: .
     healthCheckPath: /api/v1/health
     envVars:
+      # Discrete DB vars (most reliable on Render)
+      - key: DB_HOST
+        fromDatabase:
+          name: cooksmart-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: cooksmart-db
+          property: port
+      - key: DB_NAME
+        fromDatabase:
+          name: cooksmart-db
+          property: database
+      - key: DB_USER
+        fromDatabase:
+          name: cooksmart-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: cooksmart-db
+          property: password
+      - key: DB_SSL_QUERY
+        value: "?sslmode=require"
+      # Also provide connection string for the JDBC URL converter
       - key: DATABASE_URL
         fromDatabase:
           name: cooksmart-db
