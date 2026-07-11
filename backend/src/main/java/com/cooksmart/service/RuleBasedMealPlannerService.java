@@ -324,96 +324,96 @@ public class RuleBasedMealPlannerService implements MealPlanner {
         // Indian
         meals.add(meal("Masala Oats", DietType.VEGETARIAN, CuisineType.INDIAN, "BREAKFAST", 15, 90,
                 "Savory oats with spices and vegetables.",
-                List.of(i("oats", "1 cup"), i("onion", "1"), i("tomato", "1"), i("spices", "1 tsp")));
+                List.of(i("oats", "1 cup"), i("onion", "1"), i("tomato", "1"), i("spices", "1 tsp"))));
         meals.add(meal("Poha", DietType.VEGETARIAN, CuisineType.INDIAN, "BREAKFAST", 20, 100,
                 "Flattened rice with peanuts, onion, and lemon.",
-                List.of(i("poha", "2 cups"), i("onion", "1"), i("peanuts", "2 tbsp"), i("lemon", "1")));
+                List.of(i("poha", "2 cups"), i("onion", "1"), i("peanuts", "2 tbsp"), i("lemon", "1"))));
         meals.add(meal("Besan Chilla", DietType.VEGAN, CuisineType.INDIAN, "BREAKFAST", 20, 85,
                 "Chickpea flour pancakes with herbs.",
-                List.of(i("chickpea flour", "1 cup"), i("onion", "1"), i("tomato", "1"), i("oil", "1 tbsp")));
+                List.of(i("chickpea flour", "1 cup"), i("onion", "1"), i("tomato", "1"), i("oil", "1 tbsp"))));
         meals.add(meal("Dal Tadka with Rice", DietType.VEGAN, CuisineType.INDIAN, "LUNCH", 35, 180,
                 "Tempered lentils served with steamed rice.",
-                List.of(i("lentils", "1 cup"), i("rice", "1 cup"), i("onion", "1"), i("tomato", "2"), i("spices", "1 tsp")));
+                List.of(i("lentils", "1 cup"), i("rice", "1 cup"), i("onion", "1"), i("tomato", "2"), i("spices", "1 tsp"))));
         meals.add(meal("Paneer Bhurji Wrap", DietType.VEGETARIAN, CuisineType.INDIAN, "LUNCH", 25, 220,
                 "Spiced scrambled paneer in a soft wrap.",
-                List.of(i("paneer", "200 g"), i("onion", "1"), i("tomato", "2"), i("bread", "2")));
+                List.of(i("paneer", "200 g"), i("onion", "1"), i("tomato", "2"), i("bread", "2"))));
         meals.add(meal("Chicken Curry with Roti", DietType.NON_VEGETARIAN, CuisineType.INDIAN, "DINNER", 45, 320,
                 "Home-style chicken curry with fresh roti.",
-                List.of(i("chicken", "400 g"), i("onion", "2"), i("tomato", "3"), i("wheat flour", "2 cups"), i("spices", "2 tsp")));
+                List.of(i("chicken", "400 g"), i("onion", "2"), i("tomato", "3"), i("wheat flour", "2 cups"), i("spices", "2 tsp"))));
         meals.add(meal("Chole with Jeera Rice", DietType.VEGAN, CuisineType.INDIAN, "DINNER", 40, 200,
                 "Chickpea curry with cumin rice.",
-                List.of(i("chickpeas", "2 cups"), i("rice", "1 cup"), i("onion", "2"), i("tomato", "2"), i("spices", "2 tsp")));
+                List.of(i("chickpeas", "2 cups"), i("rice", "1 cup"), i("onion", "2"), i("tomato", "2"), i("spices", "2 tsp"))));
         meals.add(meal("Vegetable Khichdi", DietType.VEGETARIAN, CuisineType.INDIAN, "DINNER", 30, 160,
                 "One-pot rice and lentil comfort meal.",
-                List.of(i("rice", "1 cup"), i("lentils", "0.5 cup"), i("vegetables", "2 cups"), i("ghee", "1 tbsp")));
+                List.of(i("rice", "1 cup"), i("lentils", "0.5 cup"), i("vegetables", "2 cups"), i("ghee", "1 tbsp"))));
 
         // Italian
         meals.add(meal("Tomato Bruschetta", DietType.VEGAN, CuisineType.ITALIAN, "BREAKFAST", 15, 110,
                 "Toasted bread topped with fresh tomatoes and basil.",
-                List.of(i("bread", "4 slices"), i("tomato", "3"), i("basil", "1 bunch"), i("olive oil", "2 tbsp")));
+                List.of(i("bread", "4 slices"), i("tomato", "3"), i("basil", "1 bunch"), i("olive oil", "2 tbsp"))));
         meals.add(meal("Veggie Frittata", DietType.VEGETARIAN, CuisineType.ITALIAN, "BREAKFAST", 25, 160,
                 "Baked egg dish with seasonal vegetables.",
-                List.of(i("eggs", "4"), i("cheese", "50 g"), i("spinach", "2 cups"), i("onion", "1")));
+                List.of(i("eggs", "4"), i("cheese", "50 g"), i("spinach", "2 cups"), i("onion", "1"))));
         meals.add(meal("Pesto Pasta", DietType.VEGETARIAN, CuisineType.ITALIAN, "LUNCH", 25, 210,
                 "Pasta tossed with basil pesto and cherry tomatoes.",
-                List.of(i("pasta", "300 g"), i("basil", "1 bunch"), i("olive oil", "3 tbsp"), i("tomato", "2"), i("cheese", "40 g")));
+                List.of(i("pasta", "300 g"), i("basil", "1 bunch"), i("olive oil", "3 tbsp"), i("tomato", "2"), i("cheese", "40 g"))));
         meals.add(meal("Margherita Flatbread", DietType.VEGETARIAN, CuisineType.ITALIAN, "LUNCH", 30, 230,
                 "Crispy flatbread with tomato, mozzarella, and basil.",
-                List.of(i("bread", "2"), i("tomato", "2"), i("cheese", "100 g"), i("basil", "1 bunch")));
+                List.of(i("bread", "2"), i("tomato", "2"), i("cheese", "100 g"), i("basil", "1 bunch"))));
         meals.add(meal("Garlic Butter Shrimp Pasta", DietType.NON_VEGETARIAN, CuisineType.ITALIAN, "DINNER", 30, 380,
                 "Quick shrimp pasta in garlic butter sauce.",
-                List.of(i("shrimp", "300 g"), i("pasta", "300 g"), i("butter", "2 tbsp"), i("garlic", "4 cloves"), i("cream", "0.5 cup")));
+                List.of(i("shrimp", "300 g"), i("pasta", "300 g"), i("butter", "2 tbsp"), i("garlic", "4 cloves"), i("cream", "0.5 cup"))));
         meals.add(meal("Mushroom Risotto", DietType.VEGETARIAN, CuisineType.ITALIAN, "DINNER", 40, 260,
                 "Creamy arborio rice with sautéed mushrooms.",
-                List.of(i("rice", "1.5 cups"), i("mushrooms", "250 g"), i("onion", "1"), i("butter", "2 tbsp"), i("cheese", "50 g")));
+                List.of(i("rice", "1.5 cups"), i("mushrooms", "250 g"), i("onion", "1"), i("butter", "2 tbsp"), i("cheese", "50 g"))));
 
         // Chinese
         meals.add(meal("Veggie Congee", DietType.VEGAN, CuisineType.CHINESE, "BREAKFAST", 30, 100,
                 "Comforting rice porridge with ginger and scallions.",
-                List.of(i("rice", "0.5 cup"), i("ginger", "1 inch"), i("scallions", "2"), i("soy sauce", "1 tbsp")));
+                List.of(i("rice", "0.5 cup"), i("ginger", "1 inch"), i("scallions", "2"), i("soy sauce", "1 tbsp"))));
         meals.add(meal("Egg Fried Rice", DietType.VEGETARIAN, CuisineType.CHINESE, "LUNCH", 20, 170,
                 "Classic fried rice with eggs and mixed vegetables.",
-                List.of(i("rice", "2 cups"), i("eggs", "2"), i("vegetables", "2 cups"), i("soy sauce", "2 tbsp"), i("oil", "2 tbsp")));
+                List.of(i("rice", "2 cups"), i("eggs", "2"), i("vegetables", "2 cups"), i("soy sauce", "2 tbsp"), i("oil", "2 tbsp"))));
         meals.add(meal("Tofu Stir Fry", DietType.VEGAN, CuisineType.CHINESE, "LUNCH", 25, 190,
                 "Crispy tofu with colorful vegetables in light sauce.",
-                List.of(i("tofu", "300 g"), i("vegetables", "3 cups"), i("soy sauce", "2 tbsp"), i("garlic", "3 cloves"), i("oil", "2 tbsp")));
+                List.of(i("tofu", "300 g"), i("vegetables", "3 cups"), i("soy sauce", "2 tbsp"), i("garlic", "3 cloves"), i("oil", "2 tbsp"))));
         meals.add(meal("Chicken Noodles", DietType.NON_VEGETARIAN, CuisineType.CHINESE, "DINNER", 30, 280,
                 "Wok-tossed noodles with chicken and veggies.",
-                List.of(i("noodles", "300 g"), i("chicken", "250 g"), i("vegetables", "2 cups"), i("soy sauce", "2 tbsp"), i("oil", "2 tbsp")));
+                List.of(i("noodles", "300 g"), i("chicken", "250 g"), i("vegetables", "2 cups"), i("soy sauce", "2 tbsp"), i("oil", "2 tbsp"))));
         meals.add(meal("Vegetable Manchurian", DietType.VEGAN, CuisineType.CHINESE, "DINNER", 35, 210,
                 "Crispy veggie balls in tangy Manchurian sauce.",
-                List.of(i("vegetables", "3 cups"), i("flour", "0.5 cup"), i("soy sauce", "2 tbsp"), i("garlic", "4 cloves"), i("onion", "1")));
+                List.of(i("vegetables", "3 cups"), i("flour", "0.5 cup"), i("soy sauce", "2 tbsp"), i("garlic", "4 cloves"), i("onion", "1"))));
 
         // Mexican
         meals.add(meal("Avocado Toast with Salsa", DietType.VEGAN, CuisineType.MEXICAN, "BREAKFAST", 10, 140,
                 "Toasted bread with smashed avocado and fresh salsa.",
-                List.of(i("bread", "2 slices"), i("avocado", "1"), i("tomato", "1"), i("onion", "0.5"), i("lime", "1")));
+                List.of(i("bread", "2 slices"), i("avocado", "1"), i("tomato", "1"), i("onion", "0.5"), i("lime", "1"))));
         meals.add(meal("Bean Breakfast Burrito", DietType.VEGETARIAN, CuisineType.MEXICAN, "BREAKFAST", 20, 180,
                 "Warm tortilla filled with beans, eggs, and salsa.",
-                List.of(i("tortilla", "2"), i("beans", "1 cup"), i("eggs", "2"), i("cheese", "40 g"), i("tomato", "1")));
+                List.of(i("tortilla", "2"), i("beans", "1 cup"), i("eggs", "2"), i("cheese", "40 g"), i("tomato", "1"))));
         meals.add(meal("Veggie Quesadilla", DietType.VEGETARIAN, CuisineType.MEXICAN, "LUNCH", 20, 200,
                 "Crispy quesadilla stuffed with veggies and cheese.",
-                List.of(i("tortilla", "2"), i("cheese", "100 g"), i("vegetables", "2 cups"), i("onion", "1")));
+                List.of(i("tortilla", "2"), i("cheese", "100 g"), i("vegetables", "2 cups"), i("onion", "1"))));
         meals.add(meal("Chicken Tacos", DietType.NON_VEGETARIAN, CuisineType.MEXICAN, "DINNER", 30, 300,
                 "Soft tacos with spiced chicken and fresh toppings.",
-                List.of(i("tortilla", "6"), i("chicken", "350 g"), i("onion", "1"), i("tomato", "2"), i("lime", "2"), i("cheese", "50 g")));
+                List.of(i("tortilla", "6"), i("chicken", "350 g"), i("onion", "1"), i("tomato", "2"), i("lime", "2"), i("cheese", "50 g"))));
         meals.add(meal("Black Bean Bowl", DietType.VEGAN, CuisineType.MEXICAN, "DINNER", 25, 190,
                 "Rice bowl with black beans, corn, and salsa.",
-                List.of(i("rice", "1 cup"), i("beans", "1.5 cups"), i("corn", "1 cup"), i("tomato", "2"), i("avocado", "1"), i("lime", "1")));
+                List.of(i("rice", "1 cup"), i("beans", "1.5 cups"), i("corn", "1 cup"), i("tomato", "2"), i("avocado", "1"), i("lime", "1"))));
 
         // Any / flexible
         meals.add(meal("Greek Yogurt Parfait", DietType.VEGETARIAN, CuisineType.ANY, "BREAKFAST", 10, 120,
                 "Layered yogurt with fruit and oats.",
-                List.of(i("yogurt", "1 cup"), i("oats", "0.5 cup"), i("banana", "1"), i("berries", "0.5 cup")));
+                List.of(i("yogurt", "1 cup"), i("oats", "0.5 cup"), i("banana", "1"), i("berries", "0.5 cup"))));
         meals.add(meal("Grilled Cheese & Tomato Soup", DietType.VEGETARIAN, CuisineType.ANY, "LUNCH", 25, 180,
                 "Classic comfort combo for a quick lunch.",
-                List.of(i("bread", "4 slices"), i("cheese", "80 g"), i("tomato", "4"), i("butter", "1 tbsp"), i("cream", "0.25 cup")));
+                List.of(i("bread", "4 slices"), i("cheese", "80 g"), i("tomato", "4"), i("butter", "1 tbsp"), i("cream", "0.25 cup"))));
         meals.add(meal("Salmon with Veggies", DietType.NON_VEGETARIAN, CuisineType.ANY, "DINNER", 35, 420,
                 "Pan-seared salmon with roasted vegetables.",
-                List.of(i("salmon", "350 g"), i("vegetables", "3 cups"), i("olive oil", "2 tbsp"), i("lemon", "1"), i("garlic", "3 cloves")));
+                List.of(i("salmon", "350 g"), i("vegetables", "3 cups"), i("olive oil", "2 tbsp"), i("lemon", "1"), i("garlic", "3 cloves"))));
         meals.add(meal("Chickpea Salad Bowl", DietType.VEGAN, CuisineType.ANY, "LUNCH", 15, 150,
                 "Protein-packed salad with lemon dressing.",
-                List.of(i("chickpeas", "1.5 cups"), i("cucumber", "1"), i("tomato", "2"), i("onion", "0.5"), i("olive oil", "2 tbsp"), i("lemon", "1")));
+                List.of(i("chickpeas", "1.5 cups"), i("cucumber", "1"), i("tomato", "2"), i("onion", "0.5"), i("olive oil", "2 tbsp"), i("lemon", "1"))));
 
         return List.copyOf(meals);
     }
