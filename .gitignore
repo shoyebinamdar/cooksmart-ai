@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/target/
+**/target/
+
+# Env / secrets
+.env
+.env.local
+*.pem
+
+# Build
+frontend/dist/
+dist/
+build/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/

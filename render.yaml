@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: cooksmart-ai
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: cooksmart-db
+          property: connectionString
+      - key: CORS_ALLOWED_ORIGINS
+        value: "*"
+      - key: AI_ENABLED
+        value: "true"
+      - key: CURRENCY_SYMBOL
+        value: "₹"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: OPENAI_API_KEY
+        sync: false
+
+databases:
+  - name: cooksmart-db
+    plan: free
+    databaseName: cooksmart
+    user: cooksmart
